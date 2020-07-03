@@ -92,6 +92,7 @@ print("R2 score of training set is {}".format(r2_train))
 
 r2_test = r2_score(y_test, y_test_predicted)
 print("R2 score of test set is {}".format(r2_test))
+print("for git")
 
 plt.scatter(x = y_test, y = y_pred, c='Green')
 plt.show()
